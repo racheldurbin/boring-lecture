@@ -8,4 +8,14 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("light-mode");
   });
+
+  $("p.noBorder").click(function() {
+    $(".noBorder").toggle();
+    $(".showBorder").toggle();
+  });
+
+  $("p.showBorder").click(function() {
+    $(".noBorder").toggle();
+    $(".showBorder").toggle();
+  });
 });
